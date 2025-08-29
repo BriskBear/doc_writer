@@ -1,0 +1,60 @@
+:root {
+  --cpp-aq-bg:       #CCEFFC;
+  --cpp-blue:        #004B87;
+  --cpp-bright-blue: #005EB8;
+  --cpp-cyan:        #009FDF;
+  --cpp-dark-bg:     #0E1D35;
+  --cpp-dark-gray:   #425563;
+  --cpp-lgray:       #D1DDE1;
+  --cpp-mblue:       #0072BC;
+  --cpp-mgray1:      #768692;
+  --cpp-mgray2:      #98A4AE;
+  --cpp-orange:      #FF4D00;
+  --cpp-white:       #FFFFFF;
+  --deep-gray:       #1D1F21;
+}
+
+@font-face {
+  font-family: 'Aurulent';
+  src: url('assets/fonts/Aurulent.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fantasque';
+  src: url('assets/fonts/Fantasque.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka';
+  src: url('assets/fonts/Iosevka.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Symbols';
+  src: url('assets/fonts/Symbols.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Symbols Mono';
+  src: url('assets/fonts/SymbolsNerdFontMono.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Terminux';
+  src: url('assets/fonts/Terminux.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'VictorMono-BoldItalic';
+  src: url('assets/fonts/VictorMono-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'VictorMono-Italic';
+  src: url('assets/fonts/VictorMono-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kanji';
+  src: url('assets/fonts/kanji.otf') format('opentype');
+}

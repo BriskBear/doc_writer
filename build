@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+require 'commonmarker'
+require 'erb'
+require 'yaml'
+
+wrap_body = ->(body) { "<body>\n#{body}</body>" }
+
+begin
+  require_relative 'lib/environment'
+rescue Errno::ENOENT => exception
+  out_file = ->(in_file) { in_file.gsub(/\.md$/,'.html') }
+
+  header = File.read('lib/stubs/header.html').gsub(/FAVICON/, 'assets/favicon.png')
+  inputs = Dir.children('.').select{|f| f.match?(/\.md$/)}
+
+  inputs.each do |i|
+    File.write(
+      out_file.call(i),
+      header + wrap_body.call(Commonmarker.to_html(File.read(i))),
+      mode: 'wb'
+    )
+  end
+
+  exit 0
+end
+
+body       = Commonmarker.to_html(ERB.new(File.read(PATH[:struct])).result)
+header     = File.read(PATH[:header]).gsub(/FAVICON/, @config[:favicon])
+letterhead = ERB.new(File.read(PATH[:letterhead])).result
+
+File.write(PATH[:out], header + wrap_body.call(letterhead + body), mode: 'wb')

@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    commonmarker (2.3.2-aarch64-linux)
+    commonmarker (2.3.2-aarch64-linux-musl)
+    commonmarker (2.3.2-arm64-darwin)
+    commonmarker (2.3.2-x86_64-darwin)
+    commonmarker (2.3.2-x86_64-linux)
+    commonmarker (2.3.2-x86_64-linux-musl)
+
+PLATFORMS
+  aarch64-linux
+  aarch64-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux
+  x86_64-linux-musl
+
+DEPENDENCIES
+  commonmarker (~> 2.3)
+
+BUNDLED WITH
+   2.7.1

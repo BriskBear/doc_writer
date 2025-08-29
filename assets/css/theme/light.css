@@ -1,0 +1,18 @@
+:root {
+  --a-color:          var(--cpp-blue);
+  --a-active:         var(--cpp-cyan);
+  --bg-color:         var(--cpp-white);
+  --code-bg-color:    var(--cpp-lgray);
+  --code-color:       var(--cpp-dark-bg);
+  --gc2-border:       var(--cpp-white);
+  --gc3-border:       var(--cpp-white);
+  --gen-select:       var(--cpp-bright-blue);
+  --h1-color:         var(--cpp-orange);
+  --h3-color:         var(--cpp-blue);
+  --hr-color:         var(--cpp-blue);
+  --img-border-color: var(--cpp-blue);
+  --info-color:       var(--cpp-cyan);
+  --italics-color:    var(--cpp-mgray1);
+  --p-fg:             var(--deep-gray);
+  --pre-fmt-color:    var(--cpp-dark-gray);
+}
