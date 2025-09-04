@@ -7,6 +7,7 @@ the introduction component.
 1. Do the thing  
 2. Do something else  
 3. Try it like this:  
-  - `sudo rm -rf /`  
+    - `sudo rm -rf /`  
+4. Added a thing to intro  
 
 ---  
